@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import fotos from './fotos.json'
 import Tags from 'components/Tags'
 import Cards from './Cards'
+import style from './Galeria.module.scss'
 
 export default function Galeria() {
 
@@ -17,11 +18,11 @@ export default function Galeria() {
   }
 
   return (
-    <section>
+    <main>
       <Tags tags={tags} filtraFotos={filtraFotos} setItens={setItens}/>
-      <div>
+      <div className={style.principal}>
         <Cards itens={itens}/>
       </div>
-    </section>
+    </main>
   )
 }
