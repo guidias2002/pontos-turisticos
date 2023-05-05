@@ -1,0 +1,38 @@
+[
+    {
+        "titulo": "Lençóis maranhenses",
+        "imagem": "assets/imagens/galeria/fortal.png",
+        "id": 1,
+        "tag": "Fortal"
+    },
+    {
+        "titulo": "Cachoeira",
+        "imagem": "assets/imagens/galeria/fortal2.png",
+        "id": 2,
+        "tag": "Fortal"
+    },
+    {
+        "titulo": "Cristo",
+        "imagem": "assets/imagens/galeria/rj.png",
+        "id": 3,
+        "tag": "RJ"
+    },
+    {
+        "titulo": "Bondinho",
+        "imagem": "assets/imagens/galeria/rj2.png",
+        "id": 4,
+        "tag": "RJ"
+    },
+    {
+        "titulo": "Ponte",
+        "imagem": "assets/imagens/galeria/sp.png",
+        "id": 5,
+        "tag": "SP"
+    },
+    {
+        "titulo": "MASP",
+        "imagem": "assets/imagens/galeria/sp2.png",
+        "id": 1,
+        "tag": "SP"
+    }
+]
