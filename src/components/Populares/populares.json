@@ -1,0 +1,27 @@
+[
+    {
+        "path": "/assets/imagens/populares/rj.jpg",
+        "alt": "Cristo Redentor",
+        "id": 1
+    },
+    {
+        "path": "/assets/imagens/populares/olinda.jpg",
+        "alt": "Olinda",
+        "id": 2
+    },
+    {
+        "path": "/assets/imagens/populares/noronha.jpg",
+        "alt": "Noronha",
+        "id": 3
+    },
+    {
+        "path": "/assets/imagens/populares/lapa.jpg",
+        "alt": "Lapa",
+        "id": 4
+    },
+    {
+        "path": "/assets/imagens/populares/curitiba.jpg",
+        "alt": "Curitiba",
+        "id": 5
+    }
+]

@@ -1,0 +1,31 @@
+.principal {
+    width: 18%;
+
+    &__lista {
+        padding-left: 0.5rem;
+        margin: 0;
+        height: 276px;
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+
+        &__item {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+
+            &:first-child {
+                a {
+                    font-weight: 700;
+                    font-family: "GandhiSansRegular";
+                }
+            }
+        }
+        a {
+            text-decoration: none;
+            font-size: 1.125rem;
+            font-family: "GandhiSansRegular";
+          }
+    }
+}

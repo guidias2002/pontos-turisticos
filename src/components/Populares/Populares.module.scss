@@ -1,0 +1,19 @@
+.principal {
+    display: flex;
+    flex-direction: column;
+    height: 800px;
+
+    &__lista {
+        list-style: none;
+
+        &__item {
+            width: 200px;
+            height: 100px;
+
+            &__imagem{
+                width: 100%;
+            }
+        }
+    }
+
+}
