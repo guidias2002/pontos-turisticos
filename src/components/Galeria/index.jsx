@@ -18,11 +18,9 @@ export default function Galeria() {
   }
 
   return (
-    <main>
+    <main className={style.galeria}>
       <Tags tags={tags} filtraFotos={filtraFotos} setItens={setItens}/>
-      <div className={style.principal}>
-        <Cards itens={itens}/>
-      </div>
+      <Cards itens={itens} style={style}/>
     </main>
   )
 }

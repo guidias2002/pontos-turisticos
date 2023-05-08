@@ -1,0 +1,17 @@
+.principal{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+
+    &__lista{
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        gap: 40px;
+
+        li {
+            cursor: pointer;
+        }
+    }
+}
