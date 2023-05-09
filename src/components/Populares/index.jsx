@@ -10,9 +10,8 @@ export default function Populares() {
             <ul className={style.principal__lista}>
                 {populares.map((item) => {
                     return (
-                        <li className={style.principal__item} key={item.id}>
+                        <li key={item.id}>
                             <img 
-                            className={style.principal__imagem}
                             src={item.path} 
                             alt={item.alt} 
                             />
@@ -20,6 +19,7 @@ export default function Populares() {
                     )
                 })}
             </ul>
+            <button>Ver mais fotos</button>
         </aside>
     )
 }

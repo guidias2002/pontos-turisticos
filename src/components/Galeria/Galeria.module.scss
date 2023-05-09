@@ -1,9 +1,3 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 .galeria{
     max-width: 1200px;
     width: 100%;
@@ -18,12 +12,33 @@
     &__card{
         height: 280px;
         margin-bottom: 1rem;
+        background-color: #023047d0;
+        border-radius: 20px;
+        border: 1px solid #023047;
+        cursor: pointer;
+
+        &:hover {
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+            -moz-transform: scale(1.1);
+            -webkit-transform: scale(1.1);
+            transform: scale(1.025);
+            transition: 0.18s;
+          }
     }
 
     &__imagem{
         height: 75%;
         width: 100%;
-        border-radius: 20px;
+        border-radius: 20px 20px 0 0;
+    }
+
+    &__descricao{
+        padding: 10px;
+        color: #fff;
+    }
+
+    h3{
+        margin-bottom: 5px;
     }
 }
 

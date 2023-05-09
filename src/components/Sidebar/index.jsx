@@ -10,7 +10,7 @@ export default function Sidebar() {
         {opcoesSidebar.map((item) => {
             return (
                 <li className={style.principal__item}>
-                    <img src='' alt="" />
+                    <img src={item.path} alt="" />
                     <a href="">{item.opcao}</a>
                 </li>
             )

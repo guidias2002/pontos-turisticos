@@ -2,7 +2,6 @@
     width: 18%;
 
     &__lista {
-        padding-left: 0.5rem;
         margin: 0;
         height: 276px;
         list-style: none;
@@ -14,18 +13,12 @@
             display: flex;
             justify-content: flex-start;
             align-items: center;
-
-            &:first-child {
-                a {
-                    font-weight: 700;
-                    font-family: "GandhiSansRegular";
-                }
-            }
         }
-        a {
-            text-decoration: none;
-            font-size: 1.125rem;
-            font-family: "GandhiSansRegular";
-          }
+    }
+
+    a {
+        text-decoration: none;
+        font-size: 1.125rem;
+        color: #fff;
     }
 }

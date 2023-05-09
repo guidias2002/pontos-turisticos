@@ -4,14 +4,22 @@
     align-items: center;
     padding: 20px 0;
 
+    h2{
+        color: #fff;
+    }
+
     &__lista{
         list-style: none;
         display: flex;
         justify-content: space-between;
-        gap: 40px;
+        gap: 20px;
 
         li {
             cursor: pointer;
+            color: #fff;
+            background-color: #a0a0a09a;
+            padding: 5px 10px;
+            border-radius: 10px;
         }
     }
 }

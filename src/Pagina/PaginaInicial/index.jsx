@@ -4,11 +4,13 @@ import style from './PaginaInicial.module.scss'
 import Sidebar from 'components/Sidebar'
 import foto from './rio-de-janeiro.jpg'
 import Populares from 'components/Populares'
+import Cabecalho from 'components/Cabecalho'
 
 export default function PaginaInicial() {
   return (
     <>
       <main>
+        <Cabecalho/>
         <section className={style.principal}>
           <Sidebar />
           <div className={style.principal__imagem}>
